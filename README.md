@@ -4,6 +4,9 @@
 This project is a serverless web application for job applications built using AWS cloud services. 
 Applicants can submit their details and upload resumes, and recruiters can view applications and access resumes through a web portal.
 
+## Architecture Diagram
+![Architecture Diagram](architecture.png)
+
 ## Technologies Used
 - HTML
 - CSS
@@ -36,5 +39,4 @@ Lambda functions process the requests and store application data in DynamoDB and
 7. Enable CORS in API Gateway
 8. Update API endpoints in frontend JavaScript
    
-## Architecture Diagram
-![Architecture Diagram](Desktop/architecture.png)
+
